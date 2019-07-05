@@ -1,15 +1,8 @@
-# &lt;/salt&gt;
+# Vanillajs & localstorage Todo App
 
-## Salt ToDo
+## Todo App
 
-This is the classic Todo app exercise. Your task is to create a simple todo app - no backend required.
-Exactly how you implement and design this is up to you - but your solution should be implemented in the files `index.html`, `js/todo.js` and `style/todo.css`. You may use the screenshot at the bottom of this page as inspiration.
-
-There is a webpack-dev-server already set up for you to get started developing quickly:
-
-```npm run dev```.
-
-You may not use any frameworks or libraries. SASS is OK.
+This was a weekend test where I had to create a fully functional SPA todo app without any frameworks or libraries. 
 
 ### UI Requirements
 * Initially, the list of todo cards should be empty.
@@ -30,16 +23,6 @@ You are free to add other functionality (as long as the requirements above are s
 * Add date and a timestamp to the cards. Sort the cards based on the timestamp. (Cards marked as done should still be in the bottom of the list)
 * Let the user decide whether to sort the cards in ascending or descending order.
 
-### A few tips on the way
-* Check the console, make sure it's clean before sending in the code
-* Keep your code modular (build small functions, try to let each function have one single responsibility)
-* Use modern JavaScript
-* Think about naming your variables and functions in a way that make the code self-documenting
-* Use a consistent naming convention (e.g. don't mix camel case & hyphens)
-* Use semantic html (e.g use the form element)
-* Use a css reset or normalize (or sensible defaults for elements)
-
-Have fun!!
 
 | ![Todo](todo.png) |
 |:---:|
