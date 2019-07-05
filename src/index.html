@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <script defer src="./js/todo.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <h1 class="h1">Todo List</h1>
+  </header>
+  <main>
+
+    <div class="new-note">
+      <form id="new-note__form" class="new-note__form" action="">
+        <div>
+          <input class="new-input new-note__form-title" type="text" name="title" placeholder="Title">
+          <input class="new-input new-note__form-note" type="text" name="note" placeholder="Note">
+        </div>
+        <button class="new-note__form-button" type="checkbox">+</button>
+      </form>
+    </div>
+    <div class="container">
+
+      <div>
+        <button id="newest" class="btn">Newest</button>
+        <button id="oldest" class="btn">Oldest</button>
+      </div>
+      <h2 class="h2">Todo</h2>
+      <div class="list todo" id="todo">
+      </div>
+      <hr>
+      <h2 class="h2">Done</h2>
+      <div class="list done" id="done">
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
